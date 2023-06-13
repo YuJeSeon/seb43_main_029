@@ -35,7 +35,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
 
 	implementation 'com.google.code.gson:gson:2.9.0'
-
+	implementation 'org.aspectj:aspectjweaver'
 	testImplementation 'org.springframework.security:spring-security-test'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
