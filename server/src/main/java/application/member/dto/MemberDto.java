@@ -20,7 +20,7 @@ public class MemberDto {
         private String email;
 
         // TODO: 추후 패스워드 옵션 추가 논의 필요, 현재: 8자리 이상
-        @Pattern(regexp = "^[0-9a-zA-Z]{8,}$",
+        @Pattern(regexp = "^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d~!@#$%^&*()+|=]{8,20}$",
                  message = "비밀번호는 8자리 이상을 입력해주세요.")
         private String password;
 
